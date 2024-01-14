@@ -1,0 +1,29 @@
+.home-banner {
+    height: 500px;
+    background-image: url(../img/banner\ home.jpg);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .text {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+
+        a {
+            margin: 0 auto;
+            margin-top: 40px;
+            color: white;
+            text-align: center;
+            width: 80px;
+            background-color: rgb(21, 21, 43);
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+}
+

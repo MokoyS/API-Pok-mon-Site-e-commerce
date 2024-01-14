@@ -1,0 +1,48 @@
+/* IMPORTS */
+
+@import "css/footer";
+@import "css/header";
+@import "css/home-banner";
+@import "css/produit";
+@import "css/cart";
+
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+h1 {
+    font-size: calc(3vw + 40px) ;
+    font-family: 'Marhey', sans-serif;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-size: calc(2vw + 10px) ;
+    font-family: 'Marhey', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,93 @@
+
+.produit {
+    height: auto;
+    background-color: rgb(21, 21, 43);
+
+    h2 {
+        padding: 60px 0;
+    }
+}
+
+.rechercher {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Couleur de fond de la carte */
+    transition: transform 0.3s ease-in-out; /* Animation de transformation au survol */
+    margin: 10px auto;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Agrandir la carte au survol */
+}
+
+.titre {
+    font-weight: bold;
+    color: #333; /* Couleur du titre */
+    font-size: 18px; /* Taille du titre */
+    margin-bottom: 10px;
+}
+
+.image-container {
+    margin-bottom: 15px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Coins arrondis pour l'image */
+}
+
+.prix {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff; /* Couleur du prix */
+}
+
+.buy a {
+    display: inline-block;
+    background-color: #28a745; /* Couleur du bouton "BUY" */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out; /* Animation de changement de couleur au survol */
+}
+
+.buy a:hover {
+    background-color: #218838; /* Nouvelle couleur de fond au survol */
+}
+
+#searchInput {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.produits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.classement section .top{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    overflow-y:auto;
+    flex-wrap: wrap;
+    margin: 0 80px;
+}

@@ -1,0 +1,208 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap");
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+header a {
+  color: black;
+}
+header .logo {
+  width: auto;
+}
+header .logo img {
+  height: 80px;
+}
+header section {
+  width: auto;
+  margin-left: auto;
+  margin-right: 60px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.home-banner {
+  height: 500px;
+  background-image: url(../img/banner\ home.jpg);
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-banner .text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+}
+.home-banner .text a {
+  margin: 0 auto;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  width: 80px;
+  background-color: rgb(21, 21, 43);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.produit {
+  height: auto;
+  background-color: rgb(21, 21, 43);
+}
+.produit h2 {
+  padding: 60px 0;
+}
+
+.rechercher {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Couleur de fond de la carte */
+  transition: transform 0.3s ease-in-out; /* Animation de transformation au survol */
+  margin: 10px auto;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Agrandir la carte au survol */
+}
+
+.titre {
+  font-weight: bold;
+  color: #333; /* Couleur du titre */
+  font-size: 18px; /* Taille du titre */
+  margin-bottom: 10px;
+}
+
+.image-container {
+  margin-bottom: 15px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Coins arrondis pour l'image */
+}
+
+.prix {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #007bff; /* Couleur du prix */
+}
+
+.buy a {
+  display: inline-block;
+  background-color: #28a745; /* Couleur du bouton "BUY" */
+  color: #fff; /* Couleur du texte du bouton */
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out; /* Animation de changement de couleur au survol */
+}
+
+.buy a:hover {
+  background-color: #218838; /* Nouvelle couleur de fond au survol */
+}
+
+#searchInput {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.produits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.classement section .top {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  margin: 0 80px;
+}
+
+.cart {
+  height: auto;
+  background-color: rgb(21, 21, 43);
+  padding: 0 20px 80px 20px;
+}
+.cart h2 {
+  padding: 60px 0;
+}
+.cart .card-cart p {
+  color: white;
+}
+
+.p-prix {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bin {
+  height: 20px;
+  margin-left: 60px;
+}
+
+/* FONT */
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: calc(3vw + 40px);
+  font-family: "Marhey", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: calc(2vw + 10px);
+  font-family: "Marhey", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */
